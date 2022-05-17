@@ -1,0 +1,19 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "Caneta BIC Preta",
+        "price": 1.50
+        }, {
+        "id": 2,
+        "name": "Notebook Macbook Pro",
+        "price": 10000.89
+        }, {
+        "id": 3,
+        "name": "Celular Sansung A20",
+        "price": 3000.89
+        }, {
+        "id": 4,
+        "name": "Carregador portátil",
+        "price": 5.50
+    }]
+}
