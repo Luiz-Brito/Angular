@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    position: fixed;
+}
+
+.header img {
+    width: 100px;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+}
+
+.lista a {
+    color: white;
+    font-weight: 500;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.lista a:hover {
+    color: red;
+    cursor: pointer;
+}
