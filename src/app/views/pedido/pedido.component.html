@@ -1,0 +1,106 @@
+<section class="pedido">
+    <div class="ped-left">
+        <div class="forms">
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome completo</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="fone" id="fone" class="inputUser" required>
+                <label for="fone" class="labelInput">Telefone</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+            </div>
+        </div>
+        <div class="opcional">
+                <div class="title">
+                    <h3>OPCIONAL</h3>
+                </div>
+                <input type="checkbox" id="coca">
+                <label for="coca">Coca-Cola</label>
+                Quantidade:<input type="number" min="0" class="qtdOp">
+                <br>
+                <input type="checkbox" id="sprite">
+                <label for="sprite">Sprite</label>
+                Quantidade:<input type="number" min="0" class="qtdOp">
+                <br>
+                <input type="checkbox" id="fanta">
+                <label for="fanta">Fanta</label>
+                Quantidade:<input type="number" min="0" class="qtdOp">
+                <br>
+                <input type="checkbox" id="kuat">
+                <label for="kuat">Kuat</label>  
+                Quantidade:<input type="number" min="0" class="qtdOp">
+                <br>
+                <br>
+                Sucos: <select>
+                    <option value="0" data-index="0">Selecione</option>
+                    <option value="1">Maracujá</option>
+                    <option value="2">Morango</option>
+                    <option value="3">Melancia</option>
+                    <option value="4">Manga</option>
+                    <option value="5">Acerola</option>
+                </select>
+                <br><br>
+                Batata frita: <select>
+                    <option value="0">Selecione</option>
+                    <option value="1">Pequena</option>
+                    <option value="2">Média</option>
+                    <option value="3">Grande</option>
+                </select>
+        </div>
+    </div>
+    <div class="ped-right">
+        <div class="polaroid">
+            <img src="../../assets/img/burg-item.jpg" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="../../assets/img/x-bacon.jpg" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="../../assets/img/x-salad.png" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="../../assets/img/x-hulk.jpg" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="../../assets/img/x-andar.jpg" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <img src="../../assets/img/x-gemeos.jpg" alt="imagem hamburguer">
+            <div class="burg-select">
+                <input type="number" min="0" max="10">
+            </div>
+        </div>
+    </div>
+    <div class="ped-footer">
+        <div class="button">
+            <button class="cancel" routerLink="/">Cancelar</button>
+            <button class="btn">Confirmar</button>
+        </div>
+    </div>
+</section> 
