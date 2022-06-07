@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { BodyComponent } from './components/template/body/body.component';
 import { HomeComponent } from './views/home/home.component';
 import { PedidoComponent } from './views/pedido/pedido.component';
+import { FinalComponent } from './views/final/final.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PedidoComponent } from './views/pedido/pedido.component';
     HeaderComponent,
     BodyComponent,
     HomeComponent,
-    PedidoComponent
+    PedidoComponent,
+    FinalComponent
   ],
   imports: [
     BrowserModule,

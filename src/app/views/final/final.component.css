@@ -1,0 +1,103 @@
+.middle {
+    background-image: url('/assets/img/fundo-home2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: white;
+    margin: 25px;
+    text-align: center;
+    border: 3px solid #47494d;
+    padding: 3px 3px 50px 3px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.title h2{
+    margin-top: 5px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.img {
+    margin-top: 50px;
+}
+
+.img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-position: center;
+}
+
+.btn {
+    background-color: #47494d;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #a11;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #47494d;
+    height: 220px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex: 1;
+    color: white;
+}
+
+.footer-left {
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-middle img{
+    max-width: 200px;
+    margin-top: 55px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.redes {
+    margin-top: 5px;
+}
+
+.redes img{
+    margin-left: 15px;
+    cursor: pointer;
+}

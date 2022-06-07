@@ -1,6 +1,6 @@
 .pedido {
     font-family: Arial, Helvetica, sans-serif;
-    height: 71%;
+    height:100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-image: url(../../../assets/img/fundo-home2.jpg);
@@ -13,7 +13,7 @@
     border: 3px solid #47494d;
     width: 400px;
     padding: 20px;
-    margin: 30px 0 0 210px;
+    margin: 30px 0 0 85px;
     border-radius: 20px;
 }
 
@@ -48,7 +48,7 @@
 
 .opcional {
     padding: 16px 0 20px 30px;
-    margin: 50px 0 0 200px;
+    margin: 50px 0 0 80px;
     background-color: white;
     width: 425px;
     border: 3px solid #47494d;
